@@ -13,6 +13,8 @@ function App() {
     <Router>
       <div className="app">
         <Navbar />
+        <h1>WELCOME TO THE FILM APP MADE BY ME TO LEARN REACT</h1>
+        <marquee>I HOPE YOU LIKE IT !!!!</marquee>
         <div className="container mt-4">
           <Routes>
             <Route path="/signup" element={<SignUp />} />
