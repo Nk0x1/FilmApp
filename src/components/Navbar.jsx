@@ -7,7 +7,7 @@ function Navbar() {
     <AppBar position="static" color="success">
       <Toolbar>
         <Typography variant="h6" sx={{ flexGrow: 1 }}>
-          Film Listing App
+          Film App
         </Typography>
         <Button color="inherit" component={Link} to="/signup">Sign Up</Button>
         <Button color="inherit" component={Link} to="/login">Login</Button>
